@@ -1,0 +1,7 @@
+.buttons {
+  list-style: none;
+}
+
+.buttons > * {
+  padding-top: 1.5rem;
+}
