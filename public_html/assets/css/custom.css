@@ -1,7 +1,16 @@
 .buttons {
   list-style: none;
+  padding: 0;
 }
 
 .buttons > * {
   padding-top: 1.5rem;
+  text-align: center;
+  padding-right: 4rem
+}
+
+@media screen and (max-width: 480px) {
+  .buttons > * {
+    padding-right: 0.5rem;
+  }
 }
