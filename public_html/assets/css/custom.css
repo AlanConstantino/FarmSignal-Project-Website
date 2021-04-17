@@ -14,3 +14,7 @@
     padding-right: 0.5rem;
   }
 }
+
+.icon-spacing a {
+  padding-right: 1rem;
+}
