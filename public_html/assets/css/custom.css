@@ -19,12 +19,12 @@
   padding-right: 1rem;
 }
 
-.text > * {
+.menu > * {
   color: #9f9f9f;
 }
 
 /* changes the sidebar, header, and footer */
-#sidebar, #sidebar nav a:before, .footer, #header {
+#sidebar, #sidebar nav a:before, #footer, #header {
   background-color: #2e3840;
 }
 
