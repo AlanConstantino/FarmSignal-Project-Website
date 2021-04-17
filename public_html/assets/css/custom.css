@@ -1,0 +1,34 @@
+.buttons {
+  list-style: none;
+  padding: 0;
+}
+
+.buttons > * {
+  padding-top: 1.5rem;
+  text-align: center;
+  padding-right: 4rem
+}
+
+@media screen and (max-width: 480px) {
+  .buttons > * {
+    padding-right: 0.5rem;
+  }
+}
+
+.icon-spacing a {
+  padding-right: 1rem;
+}
+
+.menu > * {
+  color: #9f9f9f;
+}
+
+/* changes the sidebar, header, and footer */
+#sidebar, #sidebar nav a:before, #footer, #header {
+  background-color: #2e3840;
+}
+
+/* changes the selection cursor under the navbar */
+#sidebar nav a:after {
+  background-color: #35CE8D;
+}
