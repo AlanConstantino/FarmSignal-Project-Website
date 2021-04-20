@@ -1,3 +1,8 @@
+/* centers text */
+.team {
+  padding-bottom: 1rem;
+}
+
 /* adds spacing in between teammate's role and buttons */
 .teammate h6 {
   padding-bottom: 1rem;
