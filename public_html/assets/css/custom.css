@@ -1,26 +1,16 @@
-.buttons {
-  list-style: none;
-  padding: 0;
+/* adds spacing in between teammate's role and buttons */
+.teammate h6 {
+  padding-bottom: 1rem;
 }
 
-.buttons > * {
-  padding-top: 1.5rem;
-  text-align: center;
-  padding-right: 4rem
-}
-
-@media screen and (max-width: 480px) {
-  .buttons > * {
-    padding-right: 0.5rem;
-  }
-}
-
+/* footer icon spacing */
 .icon-spacing a {
   padding-right: 1rem;
 }
 
-.menu > * {
-  color: #9f9f9f;
+/* changes text color of footer */
+footer li {
+  color: #9f9f9f !important;
 }
 
 /* changes the sidebar, header, and footer */
