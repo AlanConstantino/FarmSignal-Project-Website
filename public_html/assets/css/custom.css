@@ -1,26 +1,21 @@
-.buttons {
-  list-style: none;
-  padding: 0;
+/* centers text */
+.team {
+  padding-bottom: 1rem;
 }
 
-.buttons > * {
-  padding-top: 1.5rem;
-  text-align: center;
-  padding-right: 4rem
+/* adds spacing in between teammate's role and buttons */
+.teammate h6 {
+  padding-bottom: 1rem;
 }
 
-@media screen and (max-width: 480px) {
-  .buttons > * {
-    padding-right: 0.5rem;
-  }
-}
-
+/* footer icon spacing */
 .icon-spacing a {
   padding-right: 1rem;
 }
 
-.menu > * {
-  color: #9f9f9f;
+/* changes text color of footer */
+footer li {
+  color: #9f9f9f !important;
 }
 
 /* changes the sidebar, header, and footer */
@@ -31,4 +26,25 @@
 /* changes the selection cursor under the navbar */
 #sidebar nav a:after {
   background-color: #35CE8D;
+}
+
+/* Responsive YouTube Video */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 22rem;
+  padding-bottom: 12rem;
+  margin-bottom: 2.5rem;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.welcome {
+  padding-top: 0 !important;
 }
