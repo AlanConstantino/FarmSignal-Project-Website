@@ -32,7 +32,8 @@ footer li {
 .video-wrapper {
   position: relative;
   width: 100%;
-  max-width: 22rem;
+  max-width: 32rem;
+  min-height: 20rem;
   padding-bottom: 12rem;
   margin-bottom: 2.5rem;
 }
